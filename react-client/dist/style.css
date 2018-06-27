@@ -1,0 +1,42 @@
+h1 {
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+  text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+body {
+   background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/vintage-rustic-wood-background-11.jpg");
+   background-color: #cccccc;
+}
+
+.paper {
+  background-color: white;
+  min-height: 500px;
+  border-radius: 25px;
+  min-width: 100px;
+}
+.list {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.container-fluid {
+  padding-top: 20px;
+}
+
+.center-group {
+  max-width: 600px;
+  margin: auto;
+}
+
+.delete {
+  padding-right: 30px;
+  padding-left: 0px;
+  padding-top: 10px;
+}

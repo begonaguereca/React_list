@@ -2,10 +2,10 @@ import React from 'react';
 import ListItem from './ListItem.jsx';
 
 const List = (props) => (
-  <div>
-    <h4> List Component </h4>
-    There are { props.items.length } items.
-    { props.items.map(item => <ListItem item={item}/>)}
+  <div className="paper">
+    <ul className="list-group">
+      { props.items.map((item, i) => <ListItem item={item} key={i} id={i} delete={props.delete}/>) }
+    </ul>
   </div>
 )
 
